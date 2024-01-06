@@ -1,0 +1,21 @@
+.max-width-1 {
+  max-width: 60vw;
+}
+
+.max-width-2 {
+  max-width: 80vw;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.post {
+  height: 200px;
+  /* margin-top: 40px; */
+}
+
+.btn {
+  cursor: pointer;
+  height: 28px; width: 50px;
+}

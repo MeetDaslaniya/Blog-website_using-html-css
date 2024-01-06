@@ -1,0 +1,40 @@
+@media screen and (max-width:1200px) {
+    .navigation{
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .nav-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content{
+        height: 100%;
+        padding-bottom: 20px;
+    }
+
+    .content-right{
+        display: none;
+    }
+
+    .article{
+        flex-direction: column;
+        align-items: center;
+    }
+    .form-box input,textarea{
+        width: auto;
+    }
+
+    .form-box textarea{
+        width: 60vw;
+    }
+
+    .articles{
+        padding-bottom: 20px;
+    }
+
+    .footer div{
+        margin-left: 25lvw;
+    }
+}

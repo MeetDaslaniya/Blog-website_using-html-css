@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navigation {
+  /* height: 60px; */
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-font{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 10px 5px;
+  font-size: 24px;
+}
+
+.nav-left{
+  font-size: 26px;
+  display: flex;
+  margin: 5px;
+  padding: 5px;
+}
+.nav-left ul{
+  display: flex;
+  margin: 0 30px;
+}
+
+.nav-left ul a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-left ul li{
+  list-style: none;
+  margin: 5px;
+  padding: 5px;
+}
+
+.nav-left ul li a:hover{
+  color: yellowgreen;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+.btn:hover{
+  background-color: yellowgreen;
+  transition: 0.2s;
+}
+.content {
+  height: 300px;
+  /* background-color: blue; */
+  display: flex;
+  font-size: large;
+}
+
+.content-left{
+  margin-top: 40px;
+  margin-left: 15px;
+  width: 50%;
+}
+
+.content-right{
+  width: 50%;
+}
+
+.home-img{
+  height: 70%;
+  margin-top: 40px;
+  /* border-radius: 125px; */
+  margin-left: 90px;
+}
+
+.article{
+  display: flex;
+  margin-top: 20px;
+}
+
+.article-left{
+  width: 40%;
+}
+
+.article-right{
+  width: 60%;
+  justify-content: center;
+  align-self: center;
+}
+
+.article-right h1 a{
+  text-decoration: none;
+  color: black;
+}
+
+.article-right h1 a:hover{
+  color: yellowgreen;
+}
+
+.footer {
+  background-color: yellowgreen;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.footer div{
+   margin-left: 40%;
+   /* margin-top: 10px; */
+   padding: 5px;
+}
+.contact-form{
+  margin-left: 10px;
+  /* height: 20vw; */
+}
+
+.form-box input,textarea{
+  width: 300px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+/* .post{
+  height: 500px;
+} */
+
+.post-img img{
+  width: 60vw;
+  height: 350px;
+  margin-left: 20%;
+}
+
+.post-content h1{
+  margin-bottom: 15px;
+}
+
+.post-content p{
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.about-p{
+  font-weight: lighter;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
